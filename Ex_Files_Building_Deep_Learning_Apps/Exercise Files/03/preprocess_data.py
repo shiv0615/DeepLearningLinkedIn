@@ -2,10 +2,12 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 # Load training data set from CSV file
-training_data_df = pd.read_csv(r'/Users/shivswe/Machine_Learning/DeepLearningLinkedIn/Ex_Files_Building_Deep_Learning_Apps/Exercise Files/03/sales_data_training.csv')
+training_data_df = pd.read_csv(
+    r'/LinkedIn/DeepLearningLinkedIn/Ex_Files_Building_Deep_Learning_Apps/Exercise Files/03/sales_data_training.csv')
 
 # Load testing data set from CSV file
-test_data_df = pd.read_csv(r'/Users/shivswe/Machine_Learning/DeepLearningLinkedIn/Ex_Files_Building_Deep_Learning_Apps/Exercise Files/03/sales_data_test.csv')
+test_data_df = pd.read_csv(
+    r'/LinkedIn/DeepLearningLinkedIn/Ex_Files_Building_Deep_Learning_Apps/Exercise Files/03/sales_data_test.csv')
 
 # Data needs to be scaled to a small range like 0 to 1 for the neural
 # network to work well.

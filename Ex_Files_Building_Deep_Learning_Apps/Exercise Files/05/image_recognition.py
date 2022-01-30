@@ -6,7 +6,7 @@ from keras.applications import resnet50
 model = resnet50.ResNet50()
 
 # Load the image file, resizing it to 224x224 pixels (required by this model)
-img = image.load_img('bay.jpg',target_size=(224,224))
+img = image.load_img('bay.jpg', target_size=(224, 224))
 
 # Convert the image to a numpy array
 x = image.img_to_array(img)
